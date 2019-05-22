@@ -1,5 +1,5 @@
 *{
-	outline: dotted 1px red;
+	/*outline: dotted 1px red;*/
 }
 body {
 	font-family: Arial;
@@ -69,8 +69,26 @@ nav li a:hover {
 	justify-content: space-around;/* flex-start/ center /flex-end/ space between/ space-around */ 
 
 
+	border-bottom: solid 1px #DDD;
+	/* 
+	- version extenida :
+	margin-top: 0:
+	margin-bottom: o;
+	margin-right: 20px
+	margin-left: 20px;
+
+
+	-version simplificada : (top/right/bottom/left)
+	margin: 0 20 px 0 20px;
+	*/
+  	
+  	margin: 0 20px; /* <-version reducida (y/x)*/
+
+  	/* margin: 15px 20px 25px; <-- version mixta (top/x/bottom)*/
 }
- 
+ .noticia:last-child{
+ 	border: none;
+ }
 .noticia-img {
 	width: 30%;
 }
@@ -94,6 +112,14 @@ nav li a:hover {
 	margin-top: 15px;
 	margin-bottom: 15px; 
 
+}
+footer {
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	color: #FFF;
+	font-size: 12px;
+	margin-top: 10px;
 }
 
 
