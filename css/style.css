@@ -162,12 +162,61 @@ footer {
 	font-weight: 700;
 	text-align: center;
 	font-size: 24px;
-
 }
 #tablaPosiciones  td:nth-of-type(even) span {
 	font-weight: 700;
 	color: darkblue;
 }
 
+button{
+	display: none;
+
+}
+ 
+@media screen and (max-width: 767px){ /* hasta una table de 7'*/
+  /* reglas que aplican en panatllas de hasta 768px de ancho*/
+  /**************/
+  nav {
+  	display: none;
+    float: none;
+    clear: both;
+
+
+  }
+  nav li {
+  	display: block;
+  	text-align: center;
+  }
+  .noticia{
+  	flex-direction: column;
+  }
+
+  .noticia-img,
+  .noticia-txt {
+  	width: 100%;
+  }
+  button {
+  	display: block;
+  	padding: 5px;
+  	border: none;
+  	background-color: transparent;
+  	color: #FFF;
+  	font-weight: 700;
+  	font-size: 20px;
+  	line-height: 1;
+  	float: right;
+  }
+  button:focus + nav  {
+  	display: block;
+  }
+/******************/
+  }
+
+@media screen and (max-width: 575px) { /* hasta un smartphone de 6'*/ 
+ /*******************************/
+ 
+  
+/********************************/
+}
 
 
