@@ -1,0 +1,25 @@
+{
+  "name": "pwfe-m1-06",
+  "version": "1.0.0",
+  "description": "a parti de ahora podras tener el control de todos los cambios y actualizaciones de tu proyectos ## en caso de incendio: 1. git commit  2. git push  3. salir del edificio",
+  "main": "index.js ",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "^0.0.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alebottone/PWFE-M1-06.git"
+  },
+  "author": "AB - Alejandro Bottone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alebottone/PWFE-M1-06/issues"
+  },
+  "homepage": "https://github.com/Alebottone/PWFE-M1-06#readme"
+}
